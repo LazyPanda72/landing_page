@@ -59,7 +59,7 @@ a{
     align-items: center;
     width: 500px;
     height: 200px;
-    background-color: grey;
+    background-color: #b6b8bb;
     color: #F9FAF8;
     justify-content: center;
     margin: 20px;
@@ -73,6 +73,18 @@ a{
     flex-wrap: wrap;
 }
 
-.hero-p {
-    padding: 16px;
+.hero-p{
+    padding-bottom: 12px;
+}
+
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px;
+    border-radius: 6px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #3882f6;
 }
