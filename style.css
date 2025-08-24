@@ -60,7 +60,7 @@ a{
     align-items: center;
     width: 500px;
     height: 200px;
-    background-color: #b6b8bb;
+    background-color: #6d6f72;
     color: #F9FAF8;
     justify-content: center;
     margin: 20px;
@@ -88,4 +88,17 @@ button{
     justify-content: center;
     align-items: center;
     border-color: #3882f6;
+}
+
+.info-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 36px;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: space-around;
 }
