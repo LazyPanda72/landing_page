@@ -9,6 +9,8 @@ body{
     justify-content: space-around;
     color: #F9FAF8;
     background-color: #1F2937;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .header-left{
@@ -24,6 +26,9 @@ a{
 .header-links{
     display: flex;
     gap: 32px;
+    font-size: 18px;
+    color: #e5e7eb;
+
 }
 
 .header-right{
@@ -31,4 +36,17 @@ a{
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+.hero{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-title{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
 }
