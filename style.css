@@ -118,3 +118,37 @@ button{
     border-radius: 16px;
     background: transparent;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-actual{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.quote-quoter{
+    font-size: 24px;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 72px;
+    align-self: flex-end;
+    padding-right: 450px;
+}
