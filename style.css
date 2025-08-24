@@ -1,6 +1,8 @@
 body{
     margin: 0;
     font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -151,4 +153,25 @@ button{
     padding-bottom: 72px;
     align-self: flex-end;
     padding-right: 450px;
+}
+
+.coa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 96px;
+    background-color: #3882f6;
+    padding: 72px;
+    gap: 600px;
+}
+
+.coa-left{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.coa-right button{
+    border-color: white;
+    padding: 18px;
+    box-shadow: none;
 }
