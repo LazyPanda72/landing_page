@@ -85,11 +85,14 @@ button{
     color: #F9FAF8;
     padding: 10px;
     border-radius: 6px;
-    height: 12px;
+    height: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-color: #3882f6;
+    flex: 0 1 200px;
+    width: 150px;
+    height: 30px;
 }
 
 .info-title{
@@ -174,4 +177,14 @@ button{
     border-color: white;
     padding: 18px;
     box-shadow: none;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #e5e7eb;
 }
