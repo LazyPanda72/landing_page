@@ -42,11 +42,34 @@ a{
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 24px;
+
 }
 
 .hero-title{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+}
+
+.hero-placeholder{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    color: #F9FAF8;
+    justify-content: center;
+    margin: 20px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-p {
+    padding: 16px;
 }
